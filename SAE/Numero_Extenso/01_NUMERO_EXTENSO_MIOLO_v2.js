@@ -143,8 +143,8 @@ function numberToText(number) {
 
 function clearObjectStyle(frame, isEvenPage) {
     frame.fillColor = "Paper";
-    frame.strokeColor = "None";
-    frame.strokeWeight = 0;
+    //frame.strokeColor = "None";
+    //frame.strokeWeight = 0;
 
     var objectStyle = isEvenPage ? "RODAPE_PAGINACAO_EXTENSO_PAR" : "RODAPE_PAGINACAO_EXTENSO_IMPAR";
 
@@ -157,8 +157,8 @@ function clearObjectStyle(frame, isEvenPage) {
 //caso seja RECORTE:
 function clearObjectStyleRecorte(frame, isEvenPage) {
     frame.fillColor = "Paper";
-    frame.strokeColor = "None";
-    frame.strokeWeight = 0;
+    //frame.strokeColor = "None";
+    //frame.strokeWeight = 0;
 
     var objectStyle = isEvenPage ? "RODAPE_PAGINACAO_EXTENSO_PAR_RECORTE" : "RODAPE_PAGINACAO_EXTENSO_IMPAR_RECORTE";
 
